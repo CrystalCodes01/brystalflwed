@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/brystalflwed/static/css/main.d1b05096.chunk.css",
+    "main.js": "/brystalflwed/static/js/main.bb1bc17f.chunk.js",
+    "main.js.map": "/brystalflwed/static/js/main.bb1bc17f.chunk.js.map",
+    "runtime-main.js": "/brystalflwed/static/js/runtime-main.263e9e38.js",
+    "runtime-main.js.map": "/brystalflwed/static/js/runtime-main.263e9e38.js.map",
+    "static/js/2.ccc3f964.chunk.js": "/brystalflwed/static/js/2.ccc3f964.chunk.js",
+    "static/js/2.ccc3f964.chunk.js.map": "/brystalflwed/static/js/2.ccc3f964.chunk.js.map",
+    "index.html": "/brystalflwed/index.html",
+    "precache-manifest.cfa793cbbbc7e03c2aedff1b0e7533bd.js": "/brystalflwed/precache-manifest.cfa793cbbbc7e03c2aedff1b0e7533bd.js",
+    "service-worker.js": "/brystalflwed/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/brystalflwed/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.ccc3f964.chunk.js.LICENSE": "/brystalflwed/static/js/2.ccc3f964.chunk.js.LICENSE",
+    "static/media/logo.svg": "/brystalflwed/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.263e9e38.js",
+    "static/js/2.ccc3f964.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.bb1bc17f.chunk.js"
+  ]
+}
