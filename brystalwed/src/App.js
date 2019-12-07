@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -9,6 +8,8 @@ function App() {
         <p>
           Wedding Time!
         </p>
+      </header>
+    </div>
         // <a
         //   className="App-link"
         //   href="https://reactjs.org"
@@ -17,8 +18,6 @@ function App() {
         // >
         //   Learn React
         // </a>
-      </header>
-    </div>
   );
 }
 
