@@ -2,6 +2,7 @@ import React from "react";
 import "./App.scss";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "./about/About";
+import Banner from "./banner/Banner";
 import Hotel from "./hotel/Hotel";
 import Itinerary from "./itinerary/Itinerary";
 import Rsvp from "./rsvp/Rsvp";
@@ -47,20 +48,8 @@ function App() {
           </div>
         </nav>
 
-        <div className="app">
-          <div className="container-fluid">
-            <div className="row">
-              <div className="col">
-                <header className="header">
-                  <h1>I like you and I love you.</h1>
-                </header>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <Switch>
-          <Route exact path="/brystalflwed" />
+          <Route exact path="/brystalflwed" component={Banner} />
           <Route path="/about" component={About} />
           <Route path="/rsvp" component={Rsvp} />
           <Route path="/hotel" component={Hotel} />
