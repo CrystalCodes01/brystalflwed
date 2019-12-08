@@ -10,7 +10,7 @@ function App() {
     <Router>
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="/home">
             Brystal
           </a>
           <button

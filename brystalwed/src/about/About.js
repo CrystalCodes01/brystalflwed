@@ -1,5 +1,4 @@
 import React from "react";
-import brystal from "./brystal.jpg";
 
 function About() {
   return (
@@ -7,7 +6,7 @@ function About() {
       <div className="container">
         <div className="row">
           <div className="col">
-            <img src={brystal} className="img-fluid" alt="Bryan and Crystal" />
+            <p>About Us</p>
           </div>
         </div>
       </div>
