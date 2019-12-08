@@ -14,10 +14,18 @@
 }
 
 nav {
+  .navbar-brand {
+    font-family: fantasy;
+  }
   .nav-item {
     margin: auto 1rem;
+    a {
+      color: #282c34;
+    }
     &.active {
       font-weight: bold;
+      padding-bottom: 1px;
+      border-bottom: 1px solid #282c34;
     }
   }
 }

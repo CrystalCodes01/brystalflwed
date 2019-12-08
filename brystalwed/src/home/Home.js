@@ -7,7 +7,7 @@ function Home() {
         <div className="row">
           <div className="col">
             <header className="header">
-              <h1>I like you and love you.</h1>
+              <h1>I like you and I love you.</h1>
             </header>
           </div>
         </div>
