@@ -48,6 +48,18 @@ function App() {
           </div>
         </nav>
 
+        <div className="app">
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col">
+                <header className="header">
+                  <h1>I like you and I love you.</h1>
+                </header>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <Switch>
           <Route exact path="/brystalflwed" component={Home} />
           <Route path="/about" component={About} />
