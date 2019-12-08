@@ -13,7 +13,7 @@ function App() {
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <Link className="navbar-brand" to="/brystalflwed">
-            B&C - 6.19.20
+            B&C - 6.19.20 - <i className="fa fa-heart-o" aria-hidden="true"></i>
           </Link>
           <button
             className="navbar-toggler"
