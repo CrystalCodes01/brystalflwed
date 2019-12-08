@@ -2,7 +2,6 @@ import React from "react";
 import "./App.scss";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "./about/About";
-import Home from "./home/Home";
 import Hotel from "./hotel/Hotel";
 import Itinerary from "./itinerary/Itinerary";
 import Rsvp from "./rsvp/Rsvp";
@@ -12,7 +11,7 @@ function App() {
     <Router>
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <Link className="navbar-brand" to="/home">
+          <Link className="navbar-brand" to="/">
             B&C - 6.19.20
           </Link>
           <button
@@ -30,7 +29,7 @@ function App() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <Link to="/home">Home</Link>
+                <Link to="/">Home</Link>
               </li>
               <li className="nav-item">
                 <Link to="/rsvp">RSVP</Link>
@@ -61,7 +60,7 @@ function App() {
         </div>
 
         <Switch>
-          <Route path="/home" component={Home} />
+          <Route exact path="/" component={App} />
           <Route path="/about" component={About} />
           <Route path="/rsvp" component={Rsvp} />
           <Route path="/hotel" component={Hotel} />
