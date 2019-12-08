@@ -50,10 +50,10 @@ function App() {
 
         <Switch>
           <Route exact path="/brystalflwed" component={Banner} />
-          <Route path="/about" component={About} />
-          <Route path="/rsvp" component={Rsvp} />
-          <Route path="/hotel" component={Hotel} />
-          <Route path="/itinerary" component={Itinerary} />
+          <Route path="/brystalflwed/about" component={About} />
+          <Route path="/brystalflwed/rsvp" component={Rsvp} />
+          <Route path="/brystalflwed/hotel" component={Hotel} />
+          <Route path="/brystalflwed/itinerary" component={Itinerary} />
         </Switch>
       </div>
     </Router>
