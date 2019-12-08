@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/brystalflwed">
             B&C - 6.19.20
           </Link>
           <button
@@ -29,7 +29,7 @@ function App() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <Link to="/">Home</Link>
+                <Link to="/brystalflwed">Home</Link>
               </li>
               <li className="nav-item">
                 <Link to="/rsvp">RSVP</Link>
@@ -60,7 +60,7 @@ function App() {
         </div>
 
         <Switch>
-          <Route exact path="/" component={App} />
+          <Route exact path="/brystalflwed" />
           <Route path="/about" component={About} />
           <Route path="/rsvp" component={Rsvp} />
           <Route path="/hotel" component={Hotel} />
