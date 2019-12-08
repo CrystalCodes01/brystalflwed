@@ -49,7 +49,7 @@ function App() {
         </nav>
 
         <Switch>
-          <Route path="/home" component={Home} />
+          <Route exact path="/brystalflwed" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/rsvp" component={Rsvp} />
           <Route path="/hotel" component={Hotel} />
