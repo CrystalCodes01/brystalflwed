@@ -1,13 +1,13 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Wedding Time!
-        </p>
+      <header className="header">
+        <h1>
+          Bryan and Crystals Wedding
+        </h1>
       </header>
     </div>
         // <a
