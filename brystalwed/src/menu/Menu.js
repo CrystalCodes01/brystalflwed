@@ -1,12 +1,12 @@
 import React from "react";
 
-function Rsvp() {
+function Menu() {
   return (
     <div className="app">
       <div className="container">
         <div className="row">
           <div className="col">
-            <h1>RSVP</h1>
+            <h1>Menu</h1>
           </div>
         </div>
       </div>
@@ -22,4 +22,4 @@ function Rsvp() {
   );
 }
 
-export default Rsvp;
+export default Menu;

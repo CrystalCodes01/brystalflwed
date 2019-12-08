@@ -6,7 +6,7 @@ function Itinerary() {
       <div className="container">
         <div className="row">
           <div className="col">
-            <p>Itinerary</p>
+            <h1>Itinerary</h1>
           </div>
         </div>
       </div>

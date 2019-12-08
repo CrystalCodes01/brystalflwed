@@ -5,6 +5,7 @@ import About from "./about/About";
 import Banner from "./banner/Banner";
 import Hotel from "./hotel/Hotel";
 import Itinerary from "./itinerary/Itinerary";
+import Menu from "./menu/Menu";
 import Rsvp from "./rsvp/Rsvp";
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <Link className="navbar-brand" to="/brystalflwed">
-            B&C - 6.19.20 - <i className="fa fa-heart-o" aria-hidden="true"></i>
+            B <i class="far fa-heart"></i> C - 6.19.20
           </Link>
           <button
             className="navbar-toggler"
@@ -42,6 +43,9 @@ function App() {
                 <Link to="/hotel">Hotel</Link>
               </li>
               <li className="nav-item">
+                <Link to="/menu">Menu</Link>
+              </li>
+              <li className="nav-item">
                 <Link to="/itinerary">Itinerary</Link>
               </li>
             </ul>
@@ -54,6 +58,7 @@ function App() {
           <Route path="/rsvp" component={Rsvp} />
           <Route path="/hotel" component={Hotel} />
           <Route path="/itinerary" component={Itinerary} />
+          <Route path="/menu" component={Menu} />
         </Switch>
       </div>
     </Router>

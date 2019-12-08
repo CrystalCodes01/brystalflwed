@@ -6,7 +6,7 @@ function About() {
       <div className="container">
         <div className="row">
           <div className="col">
-            <p>About Us</p>
+            <h1>About Us</h1>
           </div>
         </div>
       </div>
