@@ -1,45 +1,48 @@
 import React from "react";
 import "./App.scss";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import About from "./about/About";
 
 function App() {
   return (
-    <div className="app">
-      <header className="header">
-        <h1>Bryan and Crystals Wedding</h1>
-      </header>
+    <Router>
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/users">Users</Link>
+            </li>
+          </ul>
+        </nav>
 
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <img
-              src="./brystal.jpg"
-              className="img-fluid"
-              alt="Bryan and Crystal"
-            />
-          </div>
-
-          <div class="col">
-            <iframe
-              title="View of Resort"
-              src="https://www.google.com/maps/embed?pb=!4v1575765343507!6m8!1m7!1sBMG48F_7bnCSLWxAIYdBHw!2m2!1d26.93430390929882!2d-80.06897447890317!3f303.0576474058768!4f0.6153406436869773!5f0.7820865974627469"
-              width="600"
-              height="450"
-              frameborder="0"
-              allowfullscreen=""
-            />
-          </div>
-        </div>
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/users">
+            <Users />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
       </div>
-    </div>
-    // <a
-    //   className="App-link"
-    //   href="https://reactjs.org"
-    //   target="_blank"
-    //   rel="noopener noreferrer"
-    // >
-    //   Learn React
-    // </a>
+    </Router>
   );
+}
+
+function Home() {
+  return <h2>Home</h2>;
+}
+
+function Users() {
+  return <h2>Users</h2>;
 }
 
 export default App;
