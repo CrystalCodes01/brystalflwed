@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.scss";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Home from "./home/Home";
 import About from "./about/About";
 import Banner from "./banner/Banner";
 import Hotel from "./hotel/Hotel";
@@ -12,48 +13,63 @@ function App() {
   return (
     <Router>
       <div>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <Link className="navbar-brand" to="/brystalflwed">
-            B <i class="far fa-heart"></i> C - 6.19.20
-          </Link>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon" />
-          </button>
-
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mr-auto">
-              <li className="nav-item">
-                <Link to="/brystalflwed">Home</Link>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+          <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+            <ul class="navbar-nav ml-auto text-center">
+              <li class="nav-item active">
+                <a class="nav-link" href="/">
+                  Home
+                </a>
               </li>
-              <li className="nav-item">
-                <Link to="/rsvp">RSVP</Link>
+              <li class="nav-item">
+                <a class="nav-link" href="/rsvp">
+                  RSVP
+                </a>
               </li>
-              <li className="nav-item">
-                <Link to="/about">About</Link>
+              <li class="nav-item">
+                <a class="nav-link" href="/about">
+                  About
+                </a>
               </li>
-              <li className="nav-item">
-                <Link to="/hotel">Hotel</Link>
+            </ul>
+          </div>
+          <div class="mx-auto my-2 order-0 order-md-1 position-relative text-center">
+            <span class="mx-auto">
+              B <i class="far fa-heart"></i> C - 6.19.20
+            </span>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target=".dual-collapse2"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+            <ul class="navbar-nav mr-auto text-center">
+              <li class="nav-item">
+                <a class="nav-link" href="/menu">
+                  Menu
+                </a>
               </li>
-              <li className="nav-item">
-                <Link to="/menu">Menu</Link>
+              <li class="nav-item">
+                <a class="nav-link" href="/itinerary">
+                  Itinerary
+                </a>
               </li>
-              <li className="nav-item">
-                <Link to="/itinerary">Itinerary</Link>
+              <li class="nav-item">
+                <a class="nav-link" href="/hotel">
+                  Hotel
+                </a>
               </li>
             </ul>
           </div>
         </nav>
 
         <Switch>
-          <Route exact path="/brystalflwed" component={Banner} />
+          // <Route exact path="/brystalflwed" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/rsvp" component={Rsvp} />
           <Route path="/hotel" component={Hotel} />

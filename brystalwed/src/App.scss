@@ -21,42 +21,14 @@ nav {
     font-family: fantasy;
   }
   .nav-item {
-    margin: auto 2rem;
-    @media only screen and (max-width: 60em) {
-      margin: 0.5rem auto;
-    }
-    &:first-child {
-      margin: auto 2rem auto 10rem;
-      @media only screen and (max-width: 60em) {
-        margin: 0.5rem auto;
-      }
+    margin: auto 1rem;
+    &:hover,
+    &:active,
+    &:focus {
+      font-weight: bold;
     }
     a {
-      color: #282c34;
-    }
-    &.active {
-      font-weight: bold;
-      padding-bottom: 1px;
-      border-bottom: 1px solid #282c34;
+      color: #282c34 !important;
     }
   }
 }
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
-// .App-link {
-//   color: #61dafb;
-// }
-//
-// @keyframes App-logo-spin {
-//   from {
-//     transform: rotate(0deg);
-//   }
-//   to {
-//     transform: rotate(360deg);
-//   }
-// }
