@@ -17,19 +17,19 @@ function App() {
           <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
             <ul class="navbar-nav ml-auto text-center">
               <li class="nav-item active">
-                <a class="nav-link" href="/">
+                <Link class="nav-link" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/rsvp">
+                <Link class="nav-link" to="/rsvp">
                   RSVP
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/about">
+                <Link class="nav-link" to="/about">
                   About
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -49,26 +49,26 @@ function App() {
           <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
             <ul class="navbar-nav mr-auto text-center">
               <li class="nav-item">
-                <a class="nav-link" href="/menu">
+                <Link class="nav-link" to="/menu">
                   Menu
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/itinerary">
+                <Link class="nav-link" to="/itinerary">
                   Itinerary
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/hotel">
+                <Link class="nav-link" to="/hotel">
                   Hotel
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
         </nav>
 
         <Switch>
-          // <Route exact path="/brystalflwed" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/brystalflwed" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/rsvp" component={Rsvp} />
