@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/brystalflwed/static/css/main.aa4ff50e.chunk.css",
-    "main.js": "/brystalflwed/static/js/main.4979265b.chunk.js",
-    "main.js.map": "/brystalflwed/static/js/main.4979265b.chunk.js.map",
+    "main.css": "/brystalflwed/static/css/main.9ff5918b.chunk.css",
+    "main.js": "/brystalflwed/static/js/main.cb4b0583.chunk.js",
+    "main.js.map": "/brystalflwed/static/js/main.cb4b0583.chunk.js.map",
     "runtime-main.js": "/brystalflwed/static/js/runtime-main.263e9e38.js",
     "runtime-main.js.map": "/brystalflwed/static/js/runtime-main.263e9e38.js.map",
     "static/js/2.7ceb1518.chunk.js": "/brystalflwed/static/js/2.7ceb1518.chunk.js",
     "static/js/2.7ceb1518.chunk.js.map": "/brystalflwed/static/js/2.7ceb1518.chunk.js.map",
     "index.html": "/brystalflwed/index.html",
-    "precache-manifest.c3e9248caef7d9f39fe532e89a9ba2c6.js": "/brystalflwed/precache-manifest.c3e9248caef7d9f39fe532e89a9ba2c6.js",
+    "precache-manifest.3e71d05bad2dfb7ac4222fb7111c26f5.js": "/brystalflwed/precache-manifest.3e71d05bad2dfb7ac4222fb7111c26f5.js",
     "service-worker.js": "/brystalflwed/service-worker.js",
-    "static/css/main.aa4ff50e.chunk.css.map": "/brystalflwed/static/css/main.aa4ff50e.chunk.css.map",
+    "static/css/main.9ff5918b.chunk.css.map": "/brystalflwed/static/css/main.9ff5918b.chunk.css.map",
     "static/js/2.7ceb1518.chunk.js.LICENSE": "/brystalflwed/static/js/2.7ceb1518.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.263e9e38.js",
     "static/js/2.7ceb1518.chunk.js",
-    "static/css/main.aa4ff50e.chunk.css",
-    "static/js/main.4979265b.chunk.js"
+    "static/css/main.9ff5918b.chunk.css",
+    "static/js/main.cb4b0583.chunk.js"
   ]
 }
