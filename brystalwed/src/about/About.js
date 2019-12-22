@@ -1,4 +1,5 @@
 import React from "react";
+import Banner from "../banner/Banner";
 
 function About() {
   return (
@@ -7,18 +8,11 @@ function About() {
         <div className="row">
           <div className="col">
             <h1>About Us</h1>
+            <Banner />
           </div>
         </div>
       </div>
     </div>
-    // <a
-    //   className="App-link"
-    //   href="https://reactjs.org"
-    //   target="_blank"
-    //   rel="noopener noreferrer"
-    // >
-    //   Learn React
-    // </a>
   );
 }
 

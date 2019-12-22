@@ -6,19 +6,57 @@ function Hotel() {
       <div className="container">
         <div className="row">
           <div className="col">
-            <h1>Hotel</h1>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col">
-            <iframe
-              title="View of Resort"
-              src="https://www.google.com/maps/embed?pb=!4v1575765343507!6m8!1m7!1sBMG48F_7bnCSLWxAIYdBHw!2m2!1d26.93430390929882!2d-80.06897447890317!3f303.0576474058768!4f0.6153406436869773!5f0.7820865974627469"
-              width="600"
-              height="500"
-              frameBorder="0"
-              allowFullScreen=""
-            />
+            <h1 class="text-dark mb-0 text-center">Hotel & Travel</h1>
+            <p class="icon-plane text-center">
+              -
+              <span class="fa-layers fa-fw">
+                <i class="far fa-paper-plane" />
+              </span>
+              -
+            </p>
+            <hr class="my-4" />
+            <section class="container col-12 col-md-8 pl-md-3 col-lg-6 text-left">
+              <img
+                src="https://raw.githubusercontent.com/isadoracreative/williams-colmenares-wedding/master/images/halibut-point-rockport.jpg"
+                alt="Halibut Point State Park"
+                class="img-fluid rounded mb-4"
+              />
+              <h2 class="skinny text-uppercase sienna">
+                Jupiter Resort and Spa
+              </h2>
+              <p>
+                Talk about venue here.
+                <br />
+                Click the address below for directions to the venue:
+              </p>
+              <a href="https://goo.gl/maps/mAhjncP5QY62" target="_blank">
+                <p class="location pb-0 mb-0 teal">Jupiter Resort and Spa</p>
+                <p class="text-dark">
+                  address 1
+                  <br />
+                  address 2
+                  <br />
+                </p>
+              </a>
+              <div id="map" class="rounded mb-4"></div>
+              <p class="location pb-0 mb-0 teal">Booking your room</p>
+              <p>
+                Talk about how to book room - link to room.
+                <em class="font-italic">make a note about deadline to book</em>
+              </p>
+              <p class="dotted-divider light-navy mb-5">....................</p>
+              <p class="location pb-0 mb-0 teal">Optional Section and Image</p>
+              <p>Lorem</p>
+              <div>
+                <img
+                  src="https://raw.githubusercontent.com/isadoracreative/williams-colmenares-wedding/master/images/schooner-festival-mark-krasnow.jpg"
+                  alt="Gloucester Schooner Festival, Photo Credit: Mark Krasnow"
+                  class="img-fluid rounded mb-4"
+                  data-toggle="tooltip"
+                  title="Photo Credit: Mark Krasnow"
+                />
+              </div>
+            </section>
           </div>
         </div>
       </div>

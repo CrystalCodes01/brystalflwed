@@ -1,8 +1,7 @@
-// @include foundation-grid;
-
+// banner //
 .app {
-  text-align: center;
   .header {
+    text-align: center;
     background-color: #282c34;
     display: flex;
     flex-direction: column;
@@ -16,9 +15,12 @@
   }
 }
 
+// nav //
 nav {
   .navbar-brand {
     font-family: fantasy;
+    color: #282c34 !important;
+    margin: 0.25rem 1rem auto 1rem;
   }
   .nav-item {
     margin: auto 1rem;
@@ -31,4 +33,10 @@ nav {
       color: #282c34 !important;
     }
   }
+}
+
+// Travel //
+
+.icon-plane {
+  font-size: 2rem;
 }

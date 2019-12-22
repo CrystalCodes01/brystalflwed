@@ -13,9 +13,23 @@ function App() {
   return (
     <Router>
       <div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-light">
-          <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
-            <ul class="navbar-nav ml-auto text-center">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+          <a href="/" class="navbar-brand">
+            B <i class="far fa-heart"></i> C - 6.19.20
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbar5"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="navbar-collapse collapse justify-content-stretch"
+            id="navbar5"
+          >
+            <ul class="navbar-nav">
               <li class="nav-item active">
                 <Link class="nav-link" to="/">
                   Home
@@ -31,23 +45,6 @@ function App() {
                   About
                 </Link>
               </li>
-            </ul>
-          </div>
-          <div class="mx-auto my-2 order-0 order-md-1 position-relative text-center">
-            <span class="mx-auto">
-              B <i class="far fa-heart"></i> C - 6.19.20
-            </span>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target=".dual-collapse2"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-          <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
-            <ul class="navbar-nav mr-auto text-center">
               <li class="nav-item">
                 <Link class="nav-link" to="/menu">
                   Menu
