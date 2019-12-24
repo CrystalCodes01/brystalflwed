@@ -4,7 +4,7 @@ import React from "react";
 function Home() {
   return (
     <div className="app">
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           <div className="col">
             <h1 className="text-center">Bryan and Crystal</h1>

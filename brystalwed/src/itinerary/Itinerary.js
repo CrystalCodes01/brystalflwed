@@ -3,7 +3,7 @@ import React from "react";
 function Itinerary() {
   return (
     <div className="app">
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           <div className="col">
             <h1>Itinerary</h1>

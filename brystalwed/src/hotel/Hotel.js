@@ -3,7 +3,7 @@ import React from "react";
 function Hotel() {
   return (
     <div className="app">
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           <div className="col">
             <h1 class="text-dark mb-0 text-center">Hotel & Travel</h1>

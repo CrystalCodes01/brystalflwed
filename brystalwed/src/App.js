@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.scss";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter, Route, Link, Switch } from "react-router-dom";
 import Home from "./home/Home";
 import About from "./about/About";
-import Banner from "./banner/Banner";
 import Hotel from "./hotel/Hotel";
 import Itinerary from "./itinerary/Itinerary";
 import Menu from "./menu/Menu";
@@ -11,52 +11,52 @@ import Rsvp from "./rsvp/Rsvp";
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename="/">
       <div>
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
-          <a href="/" class="navbar-brand">
-            B <i class="far fa-heart"></i> C - 6.19.20
-          </a>
+        <nav className="navbar navbar-expand-md navbar-light bg-light">
+          <Link to="/" className="navbar-brand">
+            B <i className="far fa-heart"></i> C - 6.19.20
+          </Link>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbar5"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            class="navbar-collapse collapse justify-content-stretch"
+            className="navbar-collapse collapse justify-content-stretch"
             id="navbar5"
           >
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <Link class="nav-link" to="/">
+            <ul className="navbar-nav">
+              <li className="nav-item active">
+                <Link className="nav-link" to="/">
                   Home
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link" to="/rsvp">
+              <li className="nav-item">
+                <Link className="nav-link" to="/rsvp">
                   RSVP
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link" to="/about">
+              <li className="nav-item">
+                <Link className="nav-link" to="/about">
                   About
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link" to="/menu">
+              <li className="nav-item">
+                <Link className="nav-link" to="/menu">
                   Menu
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link" to="/itinerary">
+              <li className="nav-item">
+                <Link className="nav-link" to="/itinerary">
                   Itinerary
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link" to="/hotel">
+              <li className="nav-item">
+                <Link className="nav-link" to="/hotel">
                   Hotel
                 </Link>
               </li>
@@ -74,7 +74,7 @@ function App() {
           <Route path="/menu" component={Menu} />
         </Switch>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
