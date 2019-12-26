@@ -16,7 +16,7 @@ function Hotel() {
           <hr className="my-4" />
           <section className="container-fluid col-12 col-md-8 pl-md-3 col-lg-6 text-left">
             <img
-              src="../resort2.jpg"
+              src="brystalwed/public/resort2.jpg"
               alt="Jupiter Resort and Spa"
               className="img-fluid rounded mb-4"
             />
