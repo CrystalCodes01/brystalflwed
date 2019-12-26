@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/brystalflwed/static/css/main.127ac9be.chunk.css",
-    "main.js": "/brystalflwed/static/js/main.bbad413e.chunk.js",
-    "main.js.map": "/brystalflwed/static/js/main.bbad413e.chunk.js.map",
+    "main.js": "/brystalflwed/static/js/main.4ae0ba60.chunk.js",
+    "main.js.map": "/brystalflwed/static/js/main.4ae0ba60.chunk.js.map",
     "runtime-main.js": "/brystalflwed/static/js/runtime-main.263e9e38.js",
     "runtime-main.js.map": "/brystalflwed/static/js/runtime-main.263e9e38.js.map",
     "static/js/2.66238a0b.chunk.js": "/brystalflwed/static/js/2.66238a0b.chunk.js",
     "static/js/2.66238a0b.chunk.js.map": "/brystalflwed/static/js/2.66238a0b.chunk.js.map",
     "index.html": "/brystalflwed/index.html",
-    "precache-manifest.5887c01f1800319865e56f47c9e68848.js": "/brystalflwed/precache-manifest.5887c01f1800319865e56f47c9e68848.js",
+    "precache-manifest.c73211b7f486ca48ce4ae6d5bcbf364e.js": "/brystalflwed/precache-manifest.c73211b7f486ca48ce4ae6d5bcbf364e.js",
     "service-worker.js": "/brystalflwed/service-worker.js",
     "static/css/main.127ac9be.chunk.css.map": "/brystalflwed/static/css/main.127ac9be.chunk.css.map",
     "static/js/2.66238a0b.chunk.js.LICENSE": "/brystalflwed/static/js/2.66238a0b.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.263e9e38.js",
     "static/js/2.66238a0b.chunk.js",
     "static/css/main.127ac9be.chunk.css",
-    "static/js/main.bbad413e.chunk.js"
+    "static/js/main.4ae0ba60.chunk.js"
   ]
 }
