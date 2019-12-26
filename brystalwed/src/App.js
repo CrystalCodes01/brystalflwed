@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.scss";
-// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { HashRouter, Route, Link, Switch } from "react-router-dom";
 import Home from "./home/Home";
 import About from "./about/About";

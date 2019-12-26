@@ -1,3 +1,25 @@
+// general //
+
+.bottom-out {
+  margin-bottom: 0;
+}
+
+.top-1x {
+  margin-top: 1rem;
+}
+
+.bottom-1x {
+  margin-bottom: 1rem;
+}
+
+.larger-1x {
+  font-size: 1.25rem;
+}
+
+.teal {
+  color: teal;
+}
+
 // banner //
 .app {
   .header {
@@ -23,6 +45,7 @@
 }
 
 // nav //
+
 nav {
   .navbar-brand {
     font-family: fantasy;
@@ -42,28 +65,19 @@ nav {
   }
 }
 
-// Travel //
+// Travel Page //
 
 .icon-plane {
   font-size: 2rem;
 }
 
-.bottom-out {
-  margin-bottom: 0;
-}
+// Timer Component //
 
-.top-1x {
-  margin-top: 1rem;
-}
-
-.bottom-1x {
-  margin-bottom: 1rem;
-}
-
-.larger-1x {
-  font-size: 1.25rem;
-}
-
-.teal {
-  color: teal;
+.timer-wrapper {
+  text-align: center;
+  font-size: 2rem;
+  .clock {
+    display: inline;
+    margin: 10px;
+  }
 }
