@@ -62,16 +62,44 @@ function App() {
             </ul>
           </div>
         </nav>
+        <main>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/brystalflwed" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/rsvp" component={Rsvp} />
+            <Route path="/hotel" component={Hotel} />
+            <Route path="/itinerary" component={Itinerary} />
+            <Route path="/menu" component={Menu} />
+          </Switch>
+        </main>
 
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/brystalflwed" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/rsvp" component={Rsvp} />
-          <Route path="/hotel" component={Hotel} />
-          <Route path="/itinerary" component={Itinerary} />
-          <Route path="/menu" component={Menu} />
-        </Switch>
+        <footer>
+          <div className="container-fluid text-center">
+            <hr />
+            <h5 className="text-uppercase">B & C</h5>
+            <p>
+              <span className="fa-stack fa-fw">
+                <i className="fas fa-heart fa-stack-1x" />
+                <i className="far fa-heart fa-stack-2x" />
+              </span>
+              +
+              <span className="fa-stack fa-fw">
+                <i className="fas fa-heart fa-stack-1x" />
+                <i className="far fa-heart fa-stack-2x" />
+              </span>
+            </p>
+          </div>
+          <div className="nav justify-content-center text-dark">
+            <p>
+              Questions? Shoot us an <a href="#">email</a> or reach out via{" "}
+              <a href="facebook.com">social media</a>
+            </p>
+          </div>
+          <section id="copyright" class="container text-center mb-3">
+            &copy; 2020 C.Maria
+          </section>
+        </footer>
       </div>
     </HashRouter>
   );

@@ -16,12 +16,20 @@
   font-size: 1.25rem;
 }
 
-.teal {
-  color: teal;
+.larger-2x {
+  font-size: 1.75rem;
 }
 
-// banner //
+.teal {
+  color: lightcyan;
+}
+
+// Header & Banner //
 .app {
+  &.wrapper {
+    z-index: 99;
+    background-color: #ffffff;
+  }
   .header {
     text-align: center;
     background-color: #282c34;
@@ -41,6 +49,17 @@
     @media only screen and (max-width: 40em) {
       font-size: 2rem;
     }
+  }
+}
+
+// jumbotron //
+
+.jumbotron {
+  padding: 2rem 1rem;
+  background-color: #f8f8ff;
+  margin: 1rem;
+  .lead {
+    font-size: 1.75rem;
   }
 }
 
@@ -65,10 +84,16 @@ nav {
   }
 }
 
-// Travel Page //
+// Page Title Headers //
 
-.icon-plane {
+.icon-header {
   font-size: 2rem;
+}
+
+// Footer //
+
+footer {
+  z-index: -99;
 }
 
 // Timer Component //
@@ -76,6 +101,8 @@ nav {
 .timer-wrapper {
   text-align: center;
   font-size: 2rem;
+  background-color: lightcyan;
+  padding: 1rem;
   .clock {
     display: inline;
     margin: 10px;

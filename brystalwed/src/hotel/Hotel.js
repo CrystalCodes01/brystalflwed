@@ -2,17 +2,17 @@ import React from "react";
 
 function Hotel() {
   return (
-    <div className="app">
+    <div className="app wrapper">
       <h1 className="text-dark mb-0 text-center">Hotel & Travel</h1>
-      <p className="icon-plane text-center">
-        -
-        <span className="fa-layers fa-fw">
+      <p className="icon-header text-center">
+        -{" "}
+        <span className="fa-fw">
           <i className="far fa-paper-plane" />
-        </span>
+        </span>{" "}
         -
       </p>
       <hr className="my-4" />
-      <section className="container-fluid col-12 col-md-8 pl-md-3 col-lg-6 text-left">
+      <section className="container-fluid col-12 col-md-8 pl-md-3 col-lg-8 text-left">
         <img
           src="https://raw.githubusercontent.com/CrystalCodes01/brystalflwed/master/brystalwed/public/resort2.jpg"
           alt="Jupiter Resort and Spa"
@@ -111,10 +111,9 @@ function Hotel() {
           If you are traveling with family or mutual friends the Partial View
           Superior Suite King is a good option to combine your stay and book
           together to save money. The Superior Suite King is a two room suite
-          with a separate living room and single size pullout sofa. It has a
-          connecting privacy door to the bedroom with one king size bed, each
-          has its own private seating balcony and television with two full
-          bathrooms.
+          with a separate living room and pullout sofa. It has a connecting
+          privacy door to the bedroom with one king size bed, each has its own
+          private seating balcony and television with two full bathrooms.
           <br />
           *Max occupancy 5 guests.
           <br /> <br />
@@ -132,7 +131,7 @@ function Hotel() {
         <img
           src="https://raw.githubusercontent.com/CrystalCodes01/brystalflwed/master/brystalwed/public/room.jpg"
           alt="Jupiter Resort Rooms"
-          className="img-fluid rounded mb-4"
+          className="img-fluid rounded mb-1"
         />
       </section>
     </div>

@@ -33,7 +33,7 @@ class Timer extends React.Component {
     return (
       <div className="timer-wrapper">
         <div className="timer-title">
-          Countdown to <b>{this.props.eventName}</b>
+          <b>{this.props.eventName}</b>
         </div>
         <div className="clock">
           {this.leadingZero(this.state.days)}{" "}
@@ -60,7 +60,7 @@ class TimerExtension extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      events: [{ name: "Wedding", date: "June 19, 2020" }]
+      events: [{ name: "See you in", date: "June 19, 2020" }]
     };
   }
 
