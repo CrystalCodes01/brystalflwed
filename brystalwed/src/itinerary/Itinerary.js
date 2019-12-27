@@ -16,16 +16,29 @@ function Itinerary() {
         <p>
           Schedule:
           <br />
-          Thursday - June 18th Bride & Groom Arrive at resort Casual dinner at
-          8pm for anyone in town (*dinner @ resort)
+          Thursday - June 18th
           <br />
-          Friday- June 19th 6:30pm Ceremony 7-8pm Cocktail & hors d'oeuvres Hour
+          Bride & Groom Arrive at resort
+          <br />
+          Bride and Groom bachelor and bachelorette outings in the evening
+          <br />
+          Friday - June 19th
+          <br />
+          6:30pm Ceremony
+          <br />
+          7-8pm Cocktail & hors d'oeuvres hour
+          <br />
           8-12pm Reception
           <br />
-          Saturday - June 20th Brunch - 12pm @ Resort (*more info to come)
+          Saturday - June 20th
+          <br />
+          Brunch - 12pm @ Resort (*more info to come)
+          <br />
           Dinner - 7:30pm (*off site dinner possible more info to come)
           <br />
-          Sunday - June 21th Goodbyes & Departure for bride and groom
+          Sunday - June 21th
+          <br />
+          Goodbyes & Departure for bride and groom
         </p>
       </section>
     </div>
