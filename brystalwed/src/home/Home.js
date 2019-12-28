@@ -10,7 +10,9 @@ function Home() {
             <div className="jumbotron jumbotron-fluid">
               <div className="container">
                 <h1 className="display-4 text-center">Bryan and Crystal</h1>
-                <p className="lead text-center">06.19.2020</p>
+                <p className="lead text-center subtext-with-animation">
+                  <span>June</span> <span>19th, 2020</span>
+                </p>
               </div>
             </div>
             <hr className="my-4" />

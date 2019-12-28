@@ -55,8 +55,8 @@
 // jumbotron //
 
 .jumbotron {
-  padding: 2rem 1rem;
-  background-color: #f8f8ff;
+  padding: 2.5rem 1rem 5rem 1rem;
+  background: linear-gradient(to bottom right, #f8f8ff 10%, lightcyan);
   margin: 1rem;
   .lead {
     font-size: 1.75rem;
@@ -101,10 +101,60 @@ footer {
 .timer-wrapper {
   text-align: center;
   font-size: 2rem;
-  background-color: lightcyan;
+  border: lightcyan 4px solid;
   padding: 1rem;
+  margin-top: 2rem;
   .clock {
     display: inline;
     margin: 10px;
+    @media only screen and (max-width: 60em) {
+      display: block;
+    }
+    @media only screen and (max-width: 40em) {
+      display: block;
+    }
+  }
+}
+
+// Animation //
+
+.subtext-with-animation {
+  position: absolute;
+  font-size: 3rem;
+  vertical-align: middle;
+  top: 7.5rem;
+  left: 40%;
+  color: #000000;
+  letter-spacing: 4px;
+  @media only screen and (max-width: 60em) {
+    left: 35%;
+    top: 8.5rem;
+  }
+  @media only screen and (max-width: 40em) {
+    left: 4rem;
+    top: 14.5rem;
+  }
+}
+
+.subtext-with-animation span:first-of-type {
+  position: relative;
+  opacity: 0;
+  animation: word-animation 0.8s ease-out 1.7s forwards;
+}
+
+.subtext-with-animation span:nth-of-type(2) {
+  position: relative;
+  opacity: 0;
+  animation: word-animation 0.8s ease-out 2s forwards;
+}
+
+@keyframes word-animation {
+  0% {
+    top: 10vw;
+    opacity: 0;
+  }
+  100% {
+    top: 3.5vw;
+    opacity: 1;
   }
 }
