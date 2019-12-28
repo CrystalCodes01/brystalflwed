@@ -1,3 +1,13 @@
+// colors //
+
+$darkteal: #00aeae;
+$darklace: #f1e6b2;
+$ocean: #32a7d6;
+$orchid: #59326e;
+$lighblue: #b9d5eb;
+$coral: coral;
+$ghostwhite: #f8f8ff;
+
 // general //
 
 .bottom-out {
@@ -56,6 +66,12 @@
 
 .jumbotron {
   padding: 2.5rem 1rem 5rem 1rem;
+  // background-image: url("/public/heartsky.jpeg");
+  // background-size: cover;
+  // -webkit-background-size: 100% 100%;
+  // -moz-background-size: 100% 100%;
+  // -o-background-size: 100% 100%;
+  // background-size: 100% 100%;
   background: linear-gradient(to bottom right, #f8f8ff 10%, lightcyan);
   margin: 1rem;
   .lead {
@@ -101,7 +117,6 @@ footer {
 .timer-wrapper {
   text-align: center;
   font-size: 2rem;
-  border: lightcyan 4px solid;
   padding: 1rem;
   margin-top: 2rem;
   .clock {
@@ -113,6 +128,26 @@ footer {
     @media only screen and (max-width: 40em) {
       display: block;
     }
+  }
+}
+
+#myDIV {
+  border: 4px solid $darkteal;
+  border-radius: 4px;
+  -webkit-animation: mymove 7s infinite;
+  animation: mymove 7s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  50% {
+    border-color: $ocean;
+  }
+}
+
+@keyframes mymove {
+  50% {
+    border-color: $ghostwhite;
   }
 }
 
