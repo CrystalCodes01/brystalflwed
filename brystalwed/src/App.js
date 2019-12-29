@@ -90,15 +90,17 @@ function App() {
               </span>
             </p>
           </div>
-          <div className="nav justify-content-center text-dark">
-            <p>
-              Questions? Shoot us an <a href="#">email</a> or reach out via{" "}
-              <a href="facebook.com">social media</a>
-            </p>
+          <div className="container-fluid text-center">
+            <div className="nav justify-content-center text-dark">
+              <p>
+                Questions? Shoot us an <a href="#">email</a> or reach out via{" "}
+                <a href="facebook.com">social media</a>
+              </p>
+            </div>
+            <section id="copyright" class="container text-center mb-3">
+              &copy; 2020 C.Maria
+            </section>
           </div>
-          <section id="copyright" class="container text-center mb-3">
-            &copy; 2020 C.Maria
-          </section>
         </footer>
       </div>
     </HashRouter>

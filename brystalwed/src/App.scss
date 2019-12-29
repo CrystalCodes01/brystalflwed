@@ -7,6 +7,7 @@ $orchid: #59326e;
 $lighblue: #b9d5eb;
 $coral: coral;
 $ghostwhite: #f8f8ff;
+$lightyellow: #ffffe0;
 
 // general //
 
@@ -32,6 +33,18 @@ $ghostwhite: #f8f8ff;
 
 .teal {
   color: lightcyan;
+}
+
+.display-4 {
+  font-size: 6.5rem;
+  color: $lightyellow !important;
+  text-shadow: 2px 2px #000000;
+  @media only screen and (max-width: 60em) {
+    font-size: 3.5rem;
+  }
+  @media only screen and (max-width: 40em) {
+    font-size: 3.5rem;
+  }
 }
 
 // Header & Banner //
@@ -66,16 +79,20 @@ $ghostwhite: #f8f8ff;
 
 .jumbotron {
   padding: 2.5rem 1rem 5rem 1rem;
-  // background-image: url("/public/heartsky.jpeg");
-  // background-size: cover;
-  // -webkit-background-size: 100% 100%;
-  // -moz-background-size: 100% 100%;
-  // -o-background-size: 100% 100%;
-  // background-size: 100% 100%;
-  background: linear-gradient(to bottom right, #f8f8ff 10%, lightcyan);
+  background-image: url("https://raw.githubusercontent.com/CrystalCodes01/brystalflwed/master/brystalwed/public/romantic.jpg");
+  background-size: cover;
+  background-position: 100% 85%;
+  height: 400px;
   margin: 1rem;
+  @media only screen and (max-width: 60em) {
+    height: 325px;
+  }
+  @media only screen and (max-width: 40em) {
+    height: 450px;
+  }
   .lead {
-    font-size: 1.75rem;
+    font-size: 3rem;
+    color: $lightyellow !important;
   }
 }
 
@@ -154,13 +171,10 @@ footer {
 // Animation //
 
 .subtext-with-animation {
-  position: absolute;
   font-size: 3rem;
   vertical-align: middle;
-  top: 7.5rem;
-  left: 40%;
-  color: #000000;
   letter-spacing: 4px;
+  text-shadow: 2px 2px #000000;
   @media only screen and (max-width: 60em) {
     left: 35%;
     top: 8.5rem;
@@ -172,13 +186,11 @@ footer {
 }
 
 .subtext-with-animation span:first-of-type {
-  position: relative;
   opacity: 0;
   animation: word-animation 0.8s ease-out 1.7s forwards;
 }
 
 .subtext-with-animation span:nth-of-type(2) {
-  position: relative;
   opacity: 0;
   animation: word-animation 0.8s ease-out 2s forwards;
 }
