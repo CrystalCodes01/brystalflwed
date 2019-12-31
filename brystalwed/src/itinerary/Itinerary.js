@@ -40,6 +40,18 @@ function Itinerary() {
           <br />
           Goodbyes & Departure for bride and groom
         </p>
+        <p>
+          Menu Options:
+          <ul>
+            <li>Miso Glazed Salmon, Ginger Orange Hollandaise</li>
+            <li>Rosemary Pan Seared Chicken, White Wine Peppercorn Sauce</li>
+            <li>New York Strip Sirloin of Beef, Red Wine Demi-Glace</li>
+            <li>
+              All Entrees are Served with Garlic Whipped Potato & Seasonal
+              Vegetable
+            </li>
+          </ul>
+        </p>
       </section>
     </div>
   );

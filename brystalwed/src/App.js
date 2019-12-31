@@ -5,7 +5,6 @@ import Home from "./home/Home";
 import About from "./about/About";
 import Hotel from "./hotel/Hotel";
 import Itinerary from "./itinerary/Itinerary";
-import Menu from "./menu/Menu";
 import Rsvp from "./rsvp/Rsvp";
 
 function App() {
@@ -45,11 +44,6 @@ function App() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/menu">
-                  Menu
-                </Link>
-              </li>
-              <li className="nav-item">
                 <Link className="nav-link" to="/itinerary">
                   Itinerary
                 </Link>
@@ -62,6 +56,7 @@ function App() {
             </ul>
           </div>
         </nav>
+
         <main>
           <Switch>
             <Route exact path="/" component={Home} />
@@ -70,12 +65,11 @@ function App() {
             <Route path="/rsvp" component={Rsvp} />
             <Route path="/hotel" component={Hotel} />
             <Route path="/itinerary" component={Itinerary} />
-            <Route path="/menu" component={Menu} />
           </Switch>
         </main>
 
         <footer>
-          <div className="container-fluid text-center">
+          <div className="container text-center">
             <hr />
             <h5 className="text-uppercase">B & C</h5>
             <p>
@@ -90,10 +84,11 @@ function App() {
               </span>
             </p>
           </div>
-          <div className="container-fluid text-center">
+          <div className="container text-center">
             <div className="nav justify-content-center text-dark">
               <p>
-                Questions? Shoot us an <a href="#">email</a> or reach out via{" "}
+                Questions? Shoot us an{" "}
+                <a href="brystalwedding@gmail.com">email</a> or reach out via{" "}
                 <a href="facebook.com">social media</a>
               </p>
             </div>

@@ -95,6 +95,15 @@ function Hotel() {
             </tr>
           </tbody>
         </table>
+        <div className="bottom-1x top-1x">
+          <a
+            className="btn btn-info btn-lg"
+            href="https://reserve.jupiterbeachresort.com/jupiterbeachresort/?requesttype=invBlockCode&code=JONSCH0619&startDate=06/18/2020&endDate=06/20/2020"
+            role="button"
+          >
+            Book Here
+          </a>
+        </div>
         <p>
           <b>
             *Please note the prices displayed here and on the website include
@@ -103,7 +112,7 @@ function Hotel() {
             room block rates.
           </b>
         </p>
-        <p>
+        <p className="top-1x bottom-1x">
           <em className="teal">
             <b>~ Note from the thrifty bride: ~</b>
           </em>
@@ -119,15 +128,6 @@ function Hotel() {
           <br /> <br />
           The Partial View Double can also accommodate up to 4 guests.
         </p>
-        <div className="bottom-1x top-1x">
-          <a
-            className="btn btn-info btn-lg"
-            href="https://reserve.jupiterbeachresort.com/jupiterbeachresort/?requesttype=invBlockCode&code=JONSCH0619&startDate=06/18/2020&endDate=06/20/2020"
-            role="button"
-          >
-            Book Here
-          </a>
-        </div>
         <img
           src="https://raw.githubusercontent.com/CrystalCodes01/brystalflwed/master/brystalwed/public/room.jpg"
           alt="Jupiter Resort Rooms"

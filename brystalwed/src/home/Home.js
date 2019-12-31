@@ -1,5 +1,6 @@
 import React from "react";
 import TimerExtension from "../timer/Timer";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -18,20 +19,22 @@ function Home() {
             <hr className="my-4" />
             <section className="container-fluid col-12 col-md-8 pl-md-3 col-lg-8">
               <p className="mb-4 larger-2x text-center">
-                Hello people that we love!
-              </p>
-              <p className="larger-1x">
                 We are excited to share our wedding day with you on June 19th,
                 2020 in Jupiter Florida.
                 <br />
-                <br />
-                Please join us for our lovely and laid back event on the beach.
-                Everything you need to know for the wedding weekend is here, on
-                this lovely website someone very talented made.
+              </p>
+              <p className="larger-1x">
+                We've created this website as a convenient way to share all the
+                information and details with you leading up to the wedding.
                 <br />
                 <br />
                 We are so excited to spend the best day of our lives with the
-                best people in the world.
+                best people in the world. Have a look around and don't forget to
+                <Link to="/rsvp">RSVP</Link>
+                <br />
+                <br />
+                We hope you can join us for our lovely and laid back event on
+                the beach.
               </p>
               <TimerExtension />
             </section>
