@@ -1,22 +1,39 @@
-import React from "react";
+import React, { Component } from "react";
+import ReactIframeResizer from "react-iframe-resizer-super";
 
-function Rsvp() {
-  return (
-    <div className="app wrapper">
-      <h1 className="text-dark mb-0 text-center">RSVP</h1>
-      <p className="icon-header text-center">
-        -{" "}
-        <span className="fa-fw">
-          <i className="far fa fa-envelope-open-o" />
-        </span>{" "}
-        -
-      </p>
-      <hr className="my-4" />
-      <section className="container-fluid col-12 col-md-8 pl-md-3 col-lg-8 text-left">
-        <p>Lorem:</p>
-      </section>
-    </div>
-  );
+class Rsvp extends Component {
+  render() {
+    const iframeResizerOptions = {
+      autoResize: true,
+      checkOrigin: false,
+      heightCalculationMethod: "max",
+      enablePublicMethods: true
+    };
+
+    return (
+      <div>
+        <h2>RSVP</h2>
+        <ReactIframeResizer
+          iframeResizerOptions={iframeResizerOptions}
+          src="https://brystalwedding.app.rsvpify.com/?embed=1&js=1"
+        />
+        <p>
+          <em>
+            {"Having trouble with the form above? "}
+            <br />
+            {"Try refreshing this site, or "}
+            <a href="#">{"going to RSVPify directly"}</a>
+            {"."}
+            <br />
+            <br />
+            {"If you have any issues with the RSVP form, please: "}
+            <a href="brystalwedding@gmail.com">let us know</a>
+            {"!"}
+          </em>
+        </p>
+      </div>
+    );
+  }
 }
 
 export default Rsvp;
