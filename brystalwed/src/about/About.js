@@ -13,14 +13,13 @@ function About() {
       </p>
       <hr className="my-4" />
       <section className="container-fluid col-12 col-md-8 pl-md-3 col-lg-8">
+        <h3 className="fancy-font text-center bottom-2x larger-3x">
+          This particular love story began in South Florida, it was the year
+          2018....
+        </h3>
         <p className="larger-1x">
-          <span className="larger-2x">
-            This particular love story began in South Florida in early 2018....
-          </span>
-          <br />
-          <br />
-          Bryan, an exotic Canadian, was freshly landed in the USA trying to
-          make friends and work on his tan.
+          Bryan, an exotic Canadian freshly landed in the USA was trying to make
+          new friends and work on his tan.
           <br /> <br />
           Crystal was a software developer living in Fort Lauderdale, focusing
           mostly on her career and not working on her tan.
@@ -45,9 +44,9 @@ function About() {
           It was all very romantic.
         </p>
         <hr />
-        <h4 className="bottom-1x text-center">
-          An oscar nominated film about all of this.
-        </h4>
+        <h3 className="bottom-2x top-2x text-center">
+          An Oscar nominated film about all of this.
+        </h3>
         <div className="embed-responsive embed-responsive-16by9 bottom-2x">
           <iframe
             className="embed-responsive-item"

@@ -12,7 +12,7 @@ function Home() {
               <div className="container">
                 <h1 className="display-4 text-center">Bryan and Crystal</h1>
                 <p className="lead text-center subtext-with-animation">
-                  <span>June</span> <span>19th, 2020</span>
+                  <span>June 19th,</span> <span> 2020</span>
                 </p>
               </div>
             </div>

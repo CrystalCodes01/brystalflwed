@@ -1,3 +1,9 @@
+// fonts //
+@import url(https://fonts.googleapis.com/css?family=Playball);
+
+.fancy-font {
+  font-family: Playball;
+}
 // colors //
 
 $darkteal: #00aeae;
@@ -39,6 +45,10 @@ $white: #ffffff;
 
 .larger-2x {
   font-size: 1.75rem;
+}
+
+.larger-3x {
+  font-size: 2rem;
 }
 
 .teal {
@@ -208,7 +218,7 @@ footer {
 
 .subtext-with-animation span:nth-of-type(2) {
   opacity: 0;
-  animation: word-animation 0.8s ease-out 2s forwards;
+  animation: word-animation 1s ease-out 2.6s forwards;
 }
 
 @keyframes word-animation {

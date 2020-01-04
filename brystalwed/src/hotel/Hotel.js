@@ -58,7 +58,7 @@ function Hotel() {
           The resort has reserved reduced rate rooms for our party.
           <p className="top-1x">
             The <b>deadline</b> to book at the guaranteed reduced rate is March
-            15th, 2020.
+            30th, 2020.
             <br />
             You have to provide a credit card number for your reservation but
             will not be charged until the date of your stay.
