@@ -68,6 +68,28 @@ function Itinerary() {
           </tbody>
         </table>
       </section>
+      <section className="container-fluid col-12 col-md-8 pl-md-3 col-lg-8 text-left bottom-2x">
+        <h4>FAQ's</h4>
+        <hr />
+        <h5>Wedding Dinner:</h5>
+        <p>
+          When you RSVP you will pick your dinner option.
+          <br />
+          Menu Options:
+          <ul>
+            <li>Miso Glazed Salmon, Ginger Orange Hollandaise</li>
+            <li>Rosemary Pan Seared Chicken, White Wine Peppercorn Sauce</li>
+            <li>New York Strip Sirloin of Beef, Red Wine Demi-Glace</li>
+            <li>Vegetarian Dish</li>
+            <li>
+              All Entrees are Served with Garlic Whipped Potato & Seasonal
+              Vegetable
+            </li>
+          </ul>
+        </p>
+        <h5 className="top-2x">Wedding Drinks:</h5>
+        <p>Cocktail hour and reception will be open bar.</p>
+      </section>
     </div>
   );
 }

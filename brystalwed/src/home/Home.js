@@ -29,8 +29,8 @@ function Home() {
                 <br />
                 <br />
                 We are so excited to spend the best day of our lives with the
-                best people in the world. Have a look around and don't forget to
-                <Link to="/rsvp">RSVP</Link>
+                best people in the world. Have a look around and don't forget to{" "}
+                <Link to="/rsvp">RSVP</Link>!
                 <br />
                 <br />
                 We hope you can join us for our lovely and laid back event on
