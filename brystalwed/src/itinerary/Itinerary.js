@@ -12,46 +12,61 @@ function Itinerary() {
         -
       </p>
       <hr className="my-4" />
-      <section className="container-fluid col-12 col-md-8 pl-md-3 col-lg-8 text-left">
-        <p>
-          Schedule:
-          <br />
-          Thursday - June 18th
-          <br />
-          Bride & Groom Arrive at resort
-          <br />
-          Bride and Groom bachelor and bachelorette outings in the evening
-          <br />
-          Friday - June 19th
-          <br />
-          6:30pm Ceremony
-          <br />
-          7-8pm Cocktail & hors d'oeuvres hour
-          <br />
-          8-12pm Reception
-          <br />
-          Saturday - June 20th
-          <br />
-          Brunch - 12pm @ Resort (*more info to come)
-          <br />
-          Dinner - 7:30pm (*off site dinner possible more info to come)
-          <br />
-          Sunday - June 21th
-          <br />
-          Goodbyes & Departure for bride and groom
-        </p>
-        <p>
-          Menu Options:
-          <ul>
-            <li>Miso Glazed Salmon, Ginger Orange Hollandaise</li>
-            <li>Rosemary Pan Seared Chicken, White Wine Peppercorn Sauce</li>
-            <li>New York Strip Sirloin of Beef, Red Wine Demi-Glace</li>
-            <li>
-              All Entrees are Served with Garlic Whipped Potato & Seasonal
-              Vegetable
-            </li>
-          </ul>
-        </p>
+      <section className="container-fluid col-12 col-md-8 pl-md-3 col-lg-8 text-left bottom-2x">
+        <table className="table table-bordered table-responsive-sm table-itinerary">
+          <thead>
+            <tr>
+              <th scope="col" className="medium-expand">
+                Date
+              </th>
+              <th scope="col">Event</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Thursday June 18th</th>
+              <td>Bride and Groom arrive at resort</td>
+            </tr>
+            <tr>
+              <th scope="row">Friday June 19th</th>
+              <td>
+                <b>Wedding Day! (all events at Jupiter Resort and Spa)</b>
+                <br />
+                <br />
+                <b>6:30pm</b> - Ceremony starts. Located at the Sand Dune.
+                Please come 30 minutes early to get seated.
+                <br />
+                <br />
+                <b>7pm</b> - Cocktail & hors d'oeuvres hour. Located on the
+                veranda.
+                <br />
+                <br />
+                <b>8pm-12am</b> - Wedding Reception. Located in the Marlin room
+                and outside Terrace. Includes dinner, drinks and dancing.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Saturday June 20th</th>
+              <td>
+                <b>11am-12:30pm</b> - Casual Brunch @ Jupiter Resort and Spa
+                (show up whenever you like!)
+                <br />
+                <br />
+                <b>12:30pm-7pm</b> - Hang with us on the beach, have cocktails
+                at the pool, hit the spa, or go exploring on your own! We will
+                be around all day to spend time with everyone. Have fun!
+                <br />
+                <br />
+                <b>7:30pm</b> Dinner - courtesy of the bride and groom - off
+                site - more info on location to come.
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Sunday June 21st</th>
+              <td>Goodbyes & Departure of Bride and Groom</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
     </div>
   );

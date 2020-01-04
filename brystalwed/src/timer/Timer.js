@@ -31,7 +31,7 @@ class Timer extends React.Component {
 
   render() {
     return (
-      <div id="myDIV" className="timer-wrapper">
+      <div id="countDown" className="timer-wrapper">
         <div className="timer-title">
           <b>{this.props.eventName}</b>
         </div>
