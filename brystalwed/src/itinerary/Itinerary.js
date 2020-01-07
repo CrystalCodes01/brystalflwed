@@ -89,6 +89,12 @@ function Itinerary() {
         </p>
         <h5 className="top-2x">Wedding Drinks:</h5>
         <p>Cocktail hour and reception will be open bar.</p>
+        <h5 className="top-2x">Sand dune, Veranda and Marlin room:</h5>
+        <p>
+          Don't worry, we will make sure we send everyone details on these areas
+          of the resort. The hotel concierge and front desk are always available
+          to point you in the right direction as well.
+        </p>
       </section>
     </div>
   );

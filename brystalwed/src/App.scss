@@ -48,7 +48,10 @@ $white: #ffffff;
 }
 
 .larger-3x {
-  font-size: 2rem;
+  font-size: 3rem;
+  @media only screen and (max-width: 40em) {
+    font-size: 2rem;
+  }
 }
 
 .teal {
@@ -198,6 +201,9 @@ footer {
 @keyframes mymove {
   50% {
     border-color: $ghostwhite;
+  }
+  75% {
+    border-color: $coral;
   }
 }
 
