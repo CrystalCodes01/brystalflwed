@@ -21,12 +21,17 @@ class Rsvp extends Component {
           -
         </p>
         <hr className="my-4" />
-        <section className="container-fluid col-12 col-md-12 pl-md-3 col-lg-10 text-left">
+        <section className="container-fluid col-12 col-md-12 pl-md-3 col-lg-10 text-left negate">
           <ReactIframeResizer
             iframeResizerOptions={iframeResizerOptions}
             src="https://brystalwedding.app.rsvpify.com/?embed=1&js=1"
           />
           <p className="text-center top-1x">
+            {
+              "We need to recieve your RSVP by May 10th, 2020. to ensure everything goes smoothly."
+            }
+            <br />
+            <br />
             {"Having trouble with the form above? "}
             <br />
             {"Try refreshing this site, or"}

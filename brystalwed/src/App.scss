@@ -55,6 +55,13 @@ $white: #ffffff;
   color: $darkteal;
 }
 
+@media only screen and (max-width: 40em) {
+  .negate {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
 .display-4 {
   font-size: 6.5rem;
   color: $lightyellow !important;

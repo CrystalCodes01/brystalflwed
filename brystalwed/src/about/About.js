@@ -37,7 +37,7 @@ function About() {
           ago, Bryan took Crystal back to the spot they went diving on their
           third date. He asked her to marry him along the shoreline that they
           dove many times before. She said yes, after figuring out that no one
-          was actually drowning in the ocean, he only told her that to get her
+          was actually drowning in the ocean. He only told her that to get her
           to look away so he could get on one knee.
           <br />
           <br />

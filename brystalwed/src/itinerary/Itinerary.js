@@ -12,7 +12,7 @@ function Itinerary() {
         -
       </p>
       <hr className="my-4" />
-      <section className="container-fluid col-12 col-md-8 pl-md-3 col-lg-8 text-left bottom-2x">
+      <section className="container-fluid col-12 col-md-10 pl-md-3 col-lg-8 text-left bottom-2x">
         <table className="table table-bordered table-responsive-sm table-itinerary">
           <thead>
             <tr>

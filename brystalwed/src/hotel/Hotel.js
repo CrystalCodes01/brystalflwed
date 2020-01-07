@@ -57,7 +57,7 @@ function Hotel() {
         <p className="top-1x">
           The resort has reserved reduced rate rooms for our party.
           <p className="top-1x">
-            The <b>deadline</b> to book at the guaranteed reduced rate is March
+            The <b>deadline</b> to book at the guaranteed reduced rate is April
             30th, 2020.
             <br />
             You have to provide a credit card number for your reservation but
