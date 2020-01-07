@@ -21,7 +21,7 @@ class Rsvp extends Component {
           -
         </p>
         <hr className="my-4" />
-        <section className="container-fluid col-12 col-md-8 pl-md-3 col-lg-8 text-left">
+        <section className="container-fluid col-12 col-md-10 pl-md-3 col-lg-10 text-left">
           <ReactIframeResizer
             iframeResizerOptions={iframeResizerOptions}
             src="https://brystalwedding.app.rsvpify.com/?embed=1&js=1"
