@@ -13,7 +13,7 @@ function App() {
       <div>
         <nav className="navbar navbar-expand-md navbar-light bg-light">
           <Link to="/" className="navbar-brand">
-            B <i className="far fa-heart"></i> C - 6.19.20
+            B & C - 6.19.20
           </Link>
           <button
             className="navbar-toggler"
