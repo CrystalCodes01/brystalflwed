@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "50e6c291c20010efa321ba5ffb9ae339",
+    "revision": "d855fc52e1850e928931a900ec9625a6",
     "url": "/brystalflwed/index.html"
   },
   {
-    "revision": "ed6856e71aaa4129818d",
-    "url": "/brystalflwed/static/css/main.769e43df.chunk.css"
+    "revision": "e0902468571923375439",
+    "url": "/brystalflwed/static/css/main.51f8dda7.chunk.css"
   },
   {
     "revision": "1b695412c221302e1f32",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/brystalflwed/static/js/2.f4f1bacf.chunk.js.LICENSE"
   },
   {
-    "revision": "ed6856e71aaa4129818d",
-    "url": "/brystalflwed/static/js/main.a6ed2723.chunk.js"
+    "revision": "e0902468571923375439",
+    "url": "/brystalflwed/static/js/main.019e07ae.chunk.js"
   },
   {
     "revision": "5a282ca1d6fdc87bc840",
