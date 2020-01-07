@@ -42,7 +42,12 @@ class Rsvp extends Component {
             <br />
             <br />
             {"If you have any issues with the RSVP process, please "}
-            <a href="brystalwedding@gmail.com">email us</a>
+            <a
+              href="mailto:brystalwedding@gmail.com?Subject=Wedding Help"
+              target="_top"
+            >
+              email us
+            </a>
             {"!"}
           </p>
         </section>

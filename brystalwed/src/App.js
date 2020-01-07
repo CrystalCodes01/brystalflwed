@@ -88,8 +88,13 @@ function App() {
             <div className="nav justify-content-center text-dark">
               <p>
                 Questions? Shoot us an{" "}
-                <a href="brystalwedding@gmail.com">email</a> or reach out via{" "}
-                <a href="facebook.com">social media</a>
+                <a
+                  href="mailto:brystalwedding@gmail.com?Subject=Wedding Help"
+                  target="_top"
+                >
+                  email
+                </a>
+                or reach out via <a href="facebook.com">social media</a>
               </p>
             </div>
             <section id="copyright" class="container text-center mb-3">
