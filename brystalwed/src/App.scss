@@ -7,15 +7,13 @@
 // colors //
 
 $darkteal: #00aeae;
-$darklace: #f1e6b2;
 $ocean: #32a7d6;
-$orchid: #59326e;
-$lighblue: #b9d5eb;
 $coral: coral;
 $ghostwhite: #f8f8ff;
 $lightyellow: #ffffe0;
 $black: #000000;
 $white: #ffffff;
+$deepred: #cd5c5c;
 
 // general //
 
@@ -52,6 +50,20 @@ $white: #ffffff;
   @media only screen and (max-width: 40em) {
     font-size: 2rem;
   }
+}
+
+.right-1x {
+  margin-right: 1rem;
+}
+
+.hide-small {
+  @media only screen and (max-width: 40em) {
+    display: none;
+  }
+}
+
+.fa-inverse {
+  color: $deepred;
 }
 
 .teal {
@@ -123,6 +135,9 @@ nav {
     font-family: fantasy;
     color: #282c34 !important;
     margin: 0.25rem 1rem auto 1rem;
+    @media only screen and (max-width: 40em) {
+      margin: 0.5rem 1rem auto 1rem;
+    }
   }
   .nav-item {
     margin: auto 1rem;

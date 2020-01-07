@@ -73,14 +73,14 @@ function App() {
             <hr />
             <h5 className="text-uppercase">B & C</h5>
             <p>
-              <span className="fa-stack fa-fw">
-                <i className="fas fa-heart fa-stack-1x" />
-                <i className="far fa-heart fa-stack-2x" />
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-heart fa-stack-1x"></i>
+                <i class="fa fa-heart fa-stack-1x fa-inverse"></i>
               </span>
               +
-              <span className="fa-stack fa-fw">
-                <i className="fas fa-heart fa-stack-1x" />
-                <i className="far fa-heart fa-stack-2x" />
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-heart fa-stack-1x"></i>
+                <i class="fa fa-heart fa-stack-1x fa-inverse"></i>
               </span>
             </p>
           </div>
@@ -92,9 +92,9 @@ function App() {
                   href="mailto:brystalwedding@gmail.com?Subject=Wedding Help"
                   target="_top"
                 >
-                  email
+                  email&nbsp;
                 </a>
-                or reach out via <a href="facebook.com">social media</a>
+                or reach out via <a href="facebook.com"> social media</a>
               </p>
             </div>
             <section id="copyright" class="container text-center mb-3">
