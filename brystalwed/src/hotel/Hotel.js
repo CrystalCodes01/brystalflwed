@@ -107,9 +107,8 @@ function Hotel() {
         <p>
           <b>
             *Please note the prices displayed here and on the website include
-            all taxes and resort fees - you may see a note about resort fees on
-            the website - this does not apply to you as it is built into our
-            room block rates.
+            resort fees - you may see a note about resort fees on the website -
+            this does not apply to you as it is built into our room block rates.
           </b>
         </p>
         <p className="top-1x bottom-1x">
