@@ -57,8 +57,8 @@ function Itinerary() {
                 be around all day to spend time with everyone. Have fun!
                 <br />
                 <br />
-                <b>7:30pm</b> Dinner - please join the bride and groom - off
-                site - more info on location to come.{" "}
+                <b>7:30pm</b> - Dinner - please join the bride and groom for
+                dinner off site - more info on location to come.{" "}
                 <em>*Champagne and wine courtesy of bride and groom.</em>
               </td>
             </tr>
