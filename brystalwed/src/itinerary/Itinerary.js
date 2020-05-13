@@ -24,41 +24,29 @@ function Itinerary() {
           </thead>
           <tbody>
             <tr>
-              <th scope="row">Thursday June 18th</th>
-              <td>Bride and Groom arrive at resort</td>
-            </tr>
-            <tr>
               <th scope="row">Friday June 19th</th>
               <td>
-                <b>Wedding Day! (all events at Jupiter Resort and Spa)</b>
-                <br />
-                <br />
-                <b>6:30pm</b> - Ceremony starts. Located at the Sand Dune.
-                Please come 30 minutes early to get seated.
-                <br />
-                <br />
-                <b>7pm</b> - Cocktail & hors d'oeuvres hour. Located on the
-                veranda.
-                <br />
-                <br />
-                <b>8pm-12am</b> - Wedding Reception. Located in the Marlin room
-                and outside Terrace. Includes dinner, drinks and dancing.
+                Hang with us at the pool, have dinner and cocktails at the
+                hotel. Have fun!
               </td>
             </tr>
             <tr>
               <th scope="row">Saturday June 20th</th>
               <td>
-                <b>11am-12:30pm</b> - Casual Brunch @ Jupiter Resort and Spa
-                (show up whenever you like!)
+                <b>Wedding Day!</b>
                 <br />
                 <br />
-                <b>12:30pm-7pm</b> - Hang with us on the beach, have cocktails
-                at the pool, hit the spa, or go exploring on your own! We will
-                be around all day to spend time with everyone. Have fun!
+                <b>5pm</b> - Ceremony starts at The Backyard Bar it is an
+                outdoor cermeony in their lovely garden. Please come 30 minutes
+                early to get seated.
                 <br />
                 <br />
-                <b>7:30pm</b> - Dinner - please join the bride and groom for
-                dinner off site - more info on location to come.{" "}
+                <b>7pm</b> - Cocktails & Dinner. Each dinner will be individual,
+                not buffet style. The bride will reach out to you about choices.
+                <br />
+                <br />
+                <b>8pm-12am</b> - Wedding Reception! Dancing, drinks, & cake
+                served individually.{" "}
                 <em>*Champagne and wine courtesy of bride and groom.</em>
               </td>
             </tr>
@@ -68,34 +56,6 @@ function Itinerary() {
             </tr>
           </tbody>
         </table>
-      </section>
-      <section className="container-fluid col-12 col-md-8 pl-md-3 col-lg-8 text-left bottom-2x">
-        <h4>FAQ's</h4>
-        <hr />
-        <h5>Wedding Dinner:</h5>
-        <p>
-          When you RSVP you will pick your dinner option.
-          <br />
-          Menu Options:
-          <ul>
-            <li>Miso Glazed Salmon, Ginger Orange Hollandaise</li>
-            <li>Rosemary Pan Seared Chicken, White Wine Peppercorn Sauce</li>
-            <li>New York Strip Sirloin of Beef, Red Wine Demi-Glace</li>
-            <li>Vegetarian Dish</li>
-            <li>
-              All Entrees are Served with Garlic Whipped Potato & Seasonal
-              Vegetable
-            </li>
-          </ul>
-        </p>
-        <h5 className="top-2x">Wedding Drinks:</h5>
-        <p>Cocktail hour and reception will be open bar.</p>
-        <h5 className="top-2x">Sand dune, Veranda and Marlin room:</h5>
-        <p>
-          Don't worry, we will make sure we send everyone details on these areas
-          of the resort. The hotel concierge and front desk are always available
-          to point you in the right direction as well.
-        </p>
       </section>
     </div>
   );

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReactIframeResizer from "react-iframe-resizer-super";
+import { Link } from "react-router-dom";
 
 class Rsvp extends Component {
   render() {
@@ -22,9 +23,16 @@ class Rsvp extends Component {
         </p>
         <hr className="my-4" />
         <section className="container-fluid col-12 col-md-12 pl-md-3 col-lg-10 text-left negate">
+          <h4 className="text-center bottom-0x">
+            <b>
+              We have cleared all previous RSVP's so if you can still make it
+              please &nbsp;
+              <Link to="/rsvp">RSVP</Link> again!
+            </b>
+          </h4>
           <ReactIframeResizer
             iframeResizerOptions={iframeResizerOptions}
-            src="https://brystalwedding.app.rsvpify.com/?embed=1&js=1"
+            src="https://brystalweddingrsvp.app.rsvpify.com/?embed=1&js=1"
           />
           <p className="text-center top-1x">
             {
@@ -35,7 +43,7 @@ class Rsvp extends Component {
             {"Having trouble with the form above? "}
             <br />
             {"Try refreshing this site, or"}
-            <a href="http://brystalwedding.rsvpify.com">
+            <a href="http://brystalweddingrsvp.rsvpify.com">
               {" click this link to RSVP"}
             </a>
             {"."}

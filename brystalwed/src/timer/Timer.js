@@ -60,7 +60,7 @@ class TimerExtension extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      events: [{ name: "See you in", date: "June 19, 2020" }]
+      events: [{ name: "See you in", date: "June 20, 2020" }]
     };
   }
 
