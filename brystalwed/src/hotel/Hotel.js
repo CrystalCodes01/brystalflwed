@@ -28,7 +28,7 @@ function Hotel() {
           with the Hilton Hotel in regards to our wedding changes. We will be
           staying at the Hilton all weekend, and having the Ceremony and
           reception at The Backyard Bar which is only 1/2 mile away and one of
-          our favorite spots in South Flordia.
+          our favorite spots in South Florida.
           <br />
           <br />
         </p>
