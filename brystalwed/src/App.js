@@ -6,6 +6,7 @@ import About from "./about/About";
 import Hotel from "./hotel/Hotel";
 import Itinerary from "./itinerary/Itinerary";
 import Rsvp from "./rsvp/Rsvp";
+import VirtualWedding from "./virtual/VirtualWedding";
 
 function App() {
   return (
@@ -53,6 +54,11 @@ function App() {
                   Hotel
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/virtualwedding">
+                  Virtual Wedding
+                </Link>
+              </li>
             </ul>
           </div>
         </nav>
@@ -65,6 +71,7 @@ function App() {
             <Route path="/rsvp" component={Rsvp} />
             <Route path="/hotel" component={Hotel} />
             <Route path="/itinerary" component={Itinerary} />
+            <Route path="/virtualwedding" component={VirtualWedding} />
           </Switch>
         </main>
 
