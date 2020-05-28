@@ -12,52 +12,52 @@ function Hotel() {
         -
       </p>
       <hr className="my-4" />
-      <section className="container-fluid col-12 col-md-8 pl-md-3 col-lg-8 text-center">
+      <section className="container-fluid col-12 col-md-8 pl-md-3 col-lg-8 text-left">
         <img
-          src="https://raw.githubusercontent.com/CrystalCodes01/brystalflwed/master/brystalwed/public/westpalmbeach-pool.jpg"
-          alt="Hilton West Palm Beach"
+          src="https://raw.githubusercontent.com/CrystalCodes01/brystalflwed/master/brystalwed/public/resort2.jpg"
+          alt="Jupiter Resort and Spa"
           className="img-fluid rounded mb-4"
         />
         <h2 className="skinny text-uppercase sienna text-center">
-          <a href="https://www3.hilton.com/en/hotels/florida/hilton-west-palm-beach-PBIWPHH/index.html?SEO_id=GMB-HI-PBIWPHH">
-            Hilton West Palm Beach
+          <a href="https://www.jupiterbeachresort.com/">
+            Jupiter Resort and Spa
           </a>
         </h2>
         <p className="bottom-out">
-          We are having our wedding in West Palm Beach Florida and have spoken
-          with the Hilton Hotel in regards to our wedding changes. We will be
-          staying at the Hilton all weekend, and having the Ceremony and
-          reception at The Backyard Bar which is only 1/2 mile away and one of
-          our favorite spots in South Florida.
+          We are having our wedding at the Jupiter Resort and Spa in Jupiter
+          Florida.
           <br />
+          The resort has everything you need in one spot.
+          <br />
+          <br />
+          <ul>
+            <li>
+              Free Parking for hotel guests
+              <em> (*optional valet if desired)</em>
+            </li>
+            <li>2 Restaurants</li>
+            <li>Pool & Poolside Bar with Live Music</li>
+            <li>Private beach access for your entire stay</li>
+            <li>Spa</li>
+          </ul>
           <br />
         </p>
         <h5>Click the address below for directions to the venue:</h5>
-        <a className="larger-1x" href="https://goo.gl/maps/eoCFhXnfr56xTUeh6">
-          <p className="location pb-0 mb-0">Hilton West Palm Beach</p>
+        <a className="larger-1x" href="https://goo.gl/maps/Hvfbp1ERFG6NLtAeA">
+          <p className="location pb-0 mb-0">Jupiter Resort and Spa</p>
           <p>
-            600 Okeechobee Blvd
+            5 N Hwy A1A
             <br />
-            West Palm Beach, FL 33401
+            Jupiter, FL. 33477
             <br />
           </p>
         </a>
         <hr className="my-4" />
-        <h2 className="pb-0 mb-0">Booking your room</h2>
-        <p className="top-1x">
-          We have spoken with the resort and they have great rates for this
-          weekend, call or book your room online at your leisure. We are not
-          doing a room block due to rates already meeting expectations.
-        </p>
-        <div className="bottom-1x top-2x">
-          <a
-            className="btn btn-info btn-lg"
-            href="https://www3.hilton.com/en/hotels/florida/hilton-west-palm-beach-PBIWPHH/index.html?SEO_id=GMB-HI-PBIWPHH"
-            role="button"
-          >
-            Book Here
-          </a>
-        </div>
+        <img
+          src="https://raw.githubusercontent.com/CrystalCodes01/brystalflwed/master/brystalwed/public/room.jpg"
+          alt="Jupiter Resort Rooms"
+          className="img-fluid rounded mb-1"
+        />
       </section>
     </div>
   );

@@ -8,10 +8,6 @@ function Home() {
       <div className="container-fluid">
         <div className="row">
           <div className="col">
-            <div class="alert alert-danger" role="alert">
-              <h3>Breaking News:</h3>
-              We love you all very much.
-            </div>
             <div class="alert alert-info" role="alert">
               <h3>Updates:</h3>
               Due to COVID-19 all information is being updated. PLease note the
@@ -32,7 +28,7 @@ function Home() {
                 We are excited to share our wedding day with you on{" "}
                 <b>June 20th, 2020</b>
                 <br />
-                in West Palm Beach Florida.
+                in Jupiter Florida.
               </p>
               <p className="larger-1x">
                 We've created this website as a convenient way to share all the
