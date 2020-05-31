@@ -24,41 +24,24 @@ function Itinerary() {
           </thead>
           <tbody>
             <tr>
-              <th scope="row">Thursday June 18th</th>
-              <td>Bride and Groom arrive at resort</td>
-            </tr>
-            <tr>
               <th scope="row">Friday June 19th</th>
-              <td>
-                <b>Wedding Day! (all events at Jupiter Resort and Spa)</b>
-                <br />
-                <br />
-                <b>6:30pm</b> - Ceremony starts. Located on the veranda. Please
-                come 30 minutes early to get seated.
-                <br />
-                <br />
-                <b>7pm</b> - Cocktail & hors d'oeuvres hour. Located on the
-                veranda.
-                <br />
-                <br />
-                <b>8pm-12am</b> - Wedding Reception. Located in the Marlin room
-                and outside Terrace. Includes dinner, drinks and dancing.
-              </td>
+              <td>Bride and Groom arrive at resort</td>
             </tr>
             <tr>
               <th scope="row">Saturday June 20th</th>
               <td>
-                <b>11am-12:30pm</b> - Casual Brunch @ Jupiter Resort and Spa
-                (show up whenever you like!)
+                <b>Wedding Day! (all events at Jupiter Resort and Spa)</b>
                 <br />
                 <br />
-                <b>12:30pm-7pm</b> - Hang with us on the beach, have cocktails
-                at the pool, hit the spa, or go exploring on your own! We will
-                be around all day to spend time with everyone. Have fun!
+                <b>6:30pm</b> - Cocktail hour and Ceremony. Located on the
+                veranda. Please come 30 minutes early to get seated.
                 <br />
                 <br />
-                <b>7:30pm</b> Dinner - courtesy of the bride and groom - off
-                site - more info on location to come.
+                <b>7pm</b> - Dinner on the veranda.
+                <br />
+                <br />
+                <b>8pm-12am</b> - Wedding Reception. Located in the Marlin room
+                and outside Terrace. Includes speeches, drinks and dancing.
               </td>
             </tr>
             <tr>
