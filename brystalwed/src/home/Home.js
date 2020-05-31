@@ -10,7 +10,7 @@ function Home() {
           <div className="col">
             <div class="alert alert-info" role="alert">
               <h3>Updates:</h3>
-              Due to COVID-19 all information is being updated. PLease note the
+              Due to COVID-19 all information is being updated. Please note the
               change in date - the wedding will be held on <b>Saturday</b> June
               20th, 2020.
             </div>
