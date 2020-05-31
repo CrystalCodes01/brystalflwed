@@ -33,15 +33,16 @@ function Itinerary() {
                 <b>Wedding Day! (all events at Jupiter Resort and Spa)</b>
                 <br />
                 <br />
-                <b>6:30pm</b> - Cocktail hour and Ceremony. Located on the
-                veranda. Please come 30 minutes early to get seated.
+                <b>6:30pm - 7:30pm</b> - Cocktail hour and Ceremony. Located on
+                the veranda. Please come 30 minutes early to get seated.
                 <br />
                 <br />
-                <b>7pm</b> - Dinner on the veranda.
+                <b>7:30pm - 8:30pm</b> - Dinner on the veranda.
                 <br />
                 <br />
-                <b>8pm-12am</b> - Wedding Reception. Located in the Marlin room
-                and outside Terrace. Includes speeches, drinks and dancing.
+                <b>8:30pm - 11:30pm</b> - Wedding Reception. Located in the
+                Marlin room and outside Terrace. Includes speeches, drinks and
+                dancing.
               </td>
             </tr>
             <tr>
