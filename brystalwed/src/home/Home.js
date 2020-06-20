@@ -30,18 +30,22 @@ function Home() {
                 <br />
                 in Jupiter Florida.
               </p>
+              <div>
+                <p className="text-center top-1x bottom-1x">
+                  <a
+                    className="larger-2x text-center coral noUnderline"
+                    href="http://pub15.bravenet.com/guestbook/1237863242/"
+                  >
+                    Please sign our Guestbook by clicking here!
+                  </a>
+                </p>
+              </div>
+              <br />
               <p className="larger-1x">
                 We've created this website as a convenient way to share all the
                 information and details with you leading up to the wedding. We
                 are so excited to spend the best day of our lives with the best
                 people in the world.
-                <br />
-                <br />
-                <b>
-                  We have cleared all previous RSVP's so if you can still make
-                  it please &nbsp;
-                  <Link to="/rsvp">RSVP</Link> again!
-                </b>
                 <br />
                 <br />
                 We hope you can join us for our lovely and laid back event, but

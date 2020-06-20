@@ -262,3 +262,16 @@ footer {
     opacity: 1;
   }
 }
+
+.coral {
+  color: $coral;
+}
+
+.noUnderline {
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: $ocean;
+  }
+}

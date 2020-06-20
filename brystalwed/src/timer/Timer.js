@@ -5,9 +5,9 @@ class Timer extends React.Component {
     super(props);
     this.state = {
       days: 0,
-      hours: 0,
-      minutes: 0,
-      seconds: 0
+      hours: 0
+      // minutes: ,
+      // seconds: 0
     };
   }
 
@@ -23,10 +23,11 @@ class Timer extends React.Component {
   getTimeDifference(eventDate) {
     const time = Date.parse(eventDate) - Date.parse(new Date());
     const days = Math.floor(time / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((time / (1000 * 60 * 60)) % 24);
-    const minutes = Math.floor((time / 1000 / 60) % 60);
-    const seconds = Math.floor((time / 1000) % 60);
-    this.setState({ days, hours, minutes, seconds });
+    const hours = Math.floor((time / (1000 * 60 * 100)) % 24);
+    // const minutes = Math.floor((time / 1000 / 60) % 60);
+    // const seconds = Math.floor((time / 1000) % 60);
+    // this.setState({ days, hours, minutes, seconds });
+    this.setState({ days, hours });
   }
 
   render() {
@@ -43,14 +44,6 @@ class Timer extends React.Component {
           {this.leadingZero(this.state.hours)}{" "}
           {this.state.hours === 1 ? "hour" : "hours"}
         </div>
-        <div className="clock">
-          {this.leadingZero(this.state.minutes)}{" "}
-          {this.state.minutes === 1 ? "minute" : "minutes"}
-        </div>
-        <div className="clock">
-          {this.leadingZero(this.state.seconds)}{" "}
-          {this.state.seconds === 1 ? "second" : "seconds"}
-        </div>
       </div>
     );
   }
@@ -60,7 +53,7 @@ class TimerExtension extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      events: [{ name: "See you in", date: "June 20, 2020" }]
+      events: [{ name: "See you in", date: "June 21, 2020" }]
     };
   }
 

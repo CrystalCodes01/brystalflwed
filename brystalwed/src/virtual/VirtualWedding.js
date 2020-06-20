@@ -13,6 +13,17 @@ function VirtualWedding() {
       </p>
       <hr className="my-4" />
       <section className="container-fluid col-12 col-md-8 pl-md-3 col-lg-8">
+        <div id="countDown" className="timer-wrapper">
+          <p className="text-center top-1x bottom-1x">
+            <a
+              className="larger-3x text-center coral noUnderline"
+              href="http://pub15.bravenet.com/guestbook/1237863242/"
+            >
+              Please sign our Guestbook by clicking here!
+            </a>
+          </p>
+        </div>
+        <br />
         <p className="larger-1x text-center">
           The virtual wedding will be hosted on Zoom, a free application you can
           download and/or use on your computer.
